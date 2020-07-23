@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);//Conexión con la base de datos MongoDB.
-mongoose.connect('mongodb+srv://username:password@cluster0-nrmab.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb://localhost/prueba', {
   useCreateIndex: true,
   useNewUrlParser: true,
 })
